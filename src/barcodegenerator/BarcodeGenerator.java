@@ -149,8 +149,8 @@ public class BarcodeGenerator extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Code128Auto code12 = new Code128Auto();
         String barcode = code12.encode(name.getText());
-        code.setText(barcode+ " "+name.getText());
-        code.setFont(new java.awt.Font("CCode128_S3_Trial", java.awt.Font.PLAIN, 50));
+        code.setText(barcode);
+        code.setFont(new java.awt.Font("CCode128_S3_Trial", java.awt.Font.PLAIN, 24));
 
     }//GEN-LAST:event_jButton1ActionPerformed
 
